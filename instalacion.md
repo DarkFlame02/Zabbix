@@ -75,3 +75,24 @@ zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbi
 11. Ahora ya tendríamos zabbix instalado, para administrarlo abrimos el navegador y buscamos localhost/zabbix:
 
 ![imagen12](imagenes/instalacion12.png)
+
+12. Si se ha instalado todo correctamente todos los requisitos deberían estar en verde:
+
+![imagen13](imagenes/instalacion13.png)
+
+13. Ponemos el nombre de la base de datos, el usuario y la contraseña:
+
+
+![imagen14](imagenes/instalacion14.png)
+
+14. Indicamos el nombre de la base de datos:
+
+![imagen15](imagenes/instalacion15.png)
+
+15. Y ya estaría instalado.
+
+![imagen16](imagenes/instalacion16.png)
+
+16. Ahora podemos iniciar sesión con el usuario “Admin” y la contraseña “zabbix”:
+
+![imagen17](imagenes/instalacion17.png)
