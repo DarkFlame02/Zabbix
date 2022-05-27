@@ -47,3 +47,31 @@ sudo mysql -uroot -p
 ```
 
 ![imagen6](imagenes/instalacion6.png)
+
+5. Ahora importamos los datos de la base de datos con la misma contraseña que creamos antes:
+
+```bash
+zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
+```
+
+![imagen7](imagenes/instalacion7.png)
+
+6. Editamos el fichero /etc/zabbix/zabbix_server.conf para añadir lo siguiente: 
+
+![imagen8](imagenes/instalacion8.png)
+
+7. También editaremos el fichero /etc/zabbix/apache.conf, donde especificaremos la zona horaria:
+
+![imagen9](imagenes/instalacion9.png)
+
+8. Ahora reiniciamos el servidor:
+
+![imagen10](imagenes/instalacion10.png)
+
+10. Configuramos el zabbix para que se inicia automáticamente cuando se arranque el equipo:
+
+![imagen11](imagenes/instalacion11.png)
+
+11. Ahora ya tendríamos zabbix instalado, para administrarlo abrimos el navegador y buscamos localhost/zabbix:
+
+![imagen12](imagenes/instalacion12.png)
