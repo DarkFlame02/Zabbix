@@ -15,3 +15,7 @@
 ![imagen4](imagenes/servicio4.png)
 
 ![imagen5](imagenes/servicio5.png)
+
+4. Y ya estaría instalado. Ahora comprobaremos si el equipo y el servidor tienen conexión. Para ello haremos un pong desde el equipo al servidor zabbix.
+
+![imagen6](imagenes/servicio6.png)
